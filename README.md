@@ -33,6 +33,8 @@ Vercel,https://github.com/vercel
 Tailwind Labs,https://github.com/tailwindlabs
 ```
 
+A sample [`test.csv`](test.csv) file with Fortune 500 companies is included in the repo — you can upload it directly to try out the app.
+
 ## Learn More
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). To learn more about Next.js, take a look at the following resources:
