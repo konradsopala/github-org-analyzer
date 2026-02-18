@@ -16,6 +16,23 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## CSV Structure
+
+The input CSV file must contain the following columns:
+
+| Column | Description |
+|--------|-------------|
+| `company_name` | Name of the company (used as a label in results) |
+| `github_org_url` | GitHub organization or user URL (e.g. `https://github.com/vercel`) |
+
+Example:
+
+```csv
+company_name,github_org_url
+Vercel,https://github.com/vercel
+Tailwind Labs,https://github.com/tailwindlabs
+```
+
 ## Learn More
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). To learn more about Next.js, take a look at the following resources:
